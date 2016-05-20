@@ -1,0 +1,20 @@
+You want a native python dictionary.
+
+(and you probably also want your values to start from"0" not from "1" , so you can void adding a +1 on all your mappings, as bellow)
+
+Build one with this:
+
+*import string
+values = dict()
+for index, letter in enumerate(string.ascii_lowercase):
+   values[letter] = index + 1*
+This will give you things like:
+
+*print values["a"]
+-> 1*
+Of course, you probably could use the "ord" built-in function and skip this dictionary altogether, as in the other answers:
+
+*print ord("c") - (ord("a")) + 1*
+Or in python 3.x or 2.7, you can create the dicionary in a single pass with a dict generator expression:
+
+*values = {chr(i): i + 1 for i in range(ord("a"), ord("a") + 26)}*

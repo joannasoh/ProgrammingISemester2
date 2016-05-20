@@ -1,0 +1,6 @@
+You can't have a strong encryption without a third-party library
+The python standard library only has hash functions
+Some third party options are:
+XOR Cipher
+AES
+PyCrypto

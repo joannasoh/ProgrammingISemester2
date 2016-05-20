@@ -1,0 +1,32 @@
+PKI: Public key infrastructure 
+
+A public key infrastructure supports the distribution and identification of public encryption keys, enabling users and computers to both securely exchange data over networks such as the Internet and verify the identity of the other party.
+
+PKI is an encryption approach where a pair of cryptographic keys (one public, one private) are used to encrypt and decrypt data.
+A user can give someone their public key, which that sender uses to encrypt data. The owner then uses their private key to decrypt the data.
+
+The PKI environment is made up of five components:
+  1. Certification Authority (CA) 
+      - serves as the root of trust that authenticates the identity of individuals, computers and other entities in the network
+  2. Registration Authority (PA)
+      - is certified by a root CA to issue certificates for uses permitted by the CA. 
+  3. Certificate Database 
+      - saves certificate requests issues and revoked certificates from the RA or CA.
+  4. Certificate Store 
+      - saves issued certificates and pending or rejected certificate requests from the local computer
+  5. Key Archival Server
+      - saves encrypted private keys in a certificate database for disaster recovery purposes in case the Certificate Database is lost. 
+      
+
+This authentication and encryption approach originated in the British intelligence community in the early 1970's. 
+It has now been used commercially for nearly 20 years.
+
+PKI technology is used today, including:
+  - sending authenticated emails using technologies (OpenPGP, S/MIME)
+  - encryption of documents using the eXtended Markup Language (XML)
+  - authentication of users using smart card logins or client authentication using SSL (secure socket layer) signatures or encryption
+
+
+
+http://www.tomsitpro.com/articles/public-key-infrastructure-introduction,2-884.html
+http://searchsecurity.techtarget.com/definition/PKI

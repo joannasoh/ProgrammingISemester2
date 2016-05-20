@@ -1,0 +1,9 @@
+WEB - To create a web application, we would need to use Python Flask ( Python framework for web applications) 
+          http://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972
+
+
+MOBILE- To create a mobile application, Kivy is an option (  used on iOS, Android, MacOS, Windows, and Linux)
+          https://pythonprogramming.net/kivy-application-development-tutorial/
+ 
+
+STANDALONE- https://mborgerson.com/creating-an-executable-from-a-python-script
